@@ -72,7 +72,7 @@
 %% Use these lines for letter-sized paper
 \usepackage[paper=letterpaper,
             %includefoot, % Uncomment to put page number above margin
-            marginparwidth=1.2in,     % Length of section titles
+            marginparwidth=1.0in,     % Length of section titles
             marginparsep=.05in,       % Space between titles and text
             margin=1in,               % 1 inch margins
             includemp]{geometry}
@@ -91,14 +91,14 @@
 % Provides special list environments and macros to create new ones
 \usepackage[shortlabels]{enumitem}
 
-% Simpler bibsections for CV sections
+% Simpler bibbsections for CV sections
 % (thanks to natbib for inspiration)
 %
 % * For lists of references with hanging indents and no numbers:
 %
-%   \begin{bibsection}
+%   \begin{bibbsection}
 %       \item ...
-%   \end{bibsection}
+%   \end{bibbsection}
 %
 % * For numbered lists of references (with hanging indents):
 %
@@ -350,23 +350,25 @@
 Graduate Student\\
 \href{http://engineering.dartmouth.edu/}{Thayer School of Engineering}\\
 \href{http://www.dartmouth.edu/}{Dartmouth College}\\
-14 Engineering Drive\\
-Hanover, NH 03755  USA}
+%14 Engineering Drive\\
+%Hanover, NH 03755  USA
+}
 
 &
 % Uncomment to add a vertical bar in middle of contact information
-{\vrule width 0.5pt}
-\parbox[m][5\baselineskip]{\spacewidth}{} &
+%{\vrule width 0.5pt}
+%\parbox[m][5\baselineskip]{\spacewidth}{} &
 
 % Non-snail-mail contact information
 \parbox{1.5\rcollength}{%
-\textit{Work:} +1-603-646-2274 \\
+\textit{Cell:} +1-937-681-1935 \\
 \textit{Fax:} +1-603-646-3856 \\
 \textit{E-mail:} \email{benjamin.w.priest.th@dartmouth.edu}\\
 %\textit{WWW:} \href{http://www.tedpavlic.com/}{www.tedpavlic.com}
 }
 
 \end{tabular}
+\vspace{-1em}
 
 %%
 %% In modern CV's, it seems like ``Objective'' is frowned upon. Instead,
@@ -390,20 +392,22 @@ Hanover, NH 03755  USA}
 
 \section{Professional Interests}
 
-\textbf{Space-efficient analysis of large, evolving datasets, especially graphs:}
+\textbf{Efficient analysis of large, dynamic datasets:}
 streaming algorithms,
 sketching,
 machine learning,
-network analysis,
+graph algorithms,
 numerical linear algebra,
 compressed sensing,
 high performance computing,
 graph theory,
 optimization,
+network analysis,
 %complexity,
 %automata,
 and natural language processing
 
+\vspace{-0.5em}
 %\section{Current Academic Appointments}
 %
 %\textbf{Assistant Professor},
@@ -491,10 +495,109 @@ and natural language processing
 
 
 
+\section{Education}
+
+\href{https://engineering.dartmouth.edu/}{\textbf{Thayer School of Engineering}}
+at 
+\href{https://dartmouth.edu}{\textbf{Dartmouth College}},
+Hanover, VT, USA
+\vspace{-0.5em}
+\begin{outerlist}
+
+\item[] Ph.D.,
+             Engineering (GPA 4.0)
+             %
+\hfill \textbf{09/2015 -- 12/2018 (Projected)}
+
+\vspace{-0.25em}
+        \begin{innerlist}
+%        \item Thesis Topic: \emph{Design and Analysis of Optimal Task-Processing Agents}
+%        \item Thesis Proposal: \emph{Cooperative Task Processing}
+%        \item Candidacy: \emph{Research Problems in Distributed Control for Energy Systems}
+        \item[-] Advisor:
+              \href{http://www.dartmouth.edu/~gvc/}
+                   {Professor George~Cybenko}
+        \item[-] Thesis: Sublinear Approximations of Vertex Centrality in Evolving Graphs
+        \item[-] Demonstrated novel, sublinear-space sketching algorithms to efficiently estimate local triangle counts and vertex centrality on large, distributed graphs
+        \end{innerlist}
+\end{outerlist}
+
+%\blankline
+\vspace{0.5em}
+
+
+\href{http://www.osu.edu/}{\textbf{The Ohio State University}},
+Columbus, OH, USA
+\vspace{-0.5em}
+\begin{outerlist}
+
+\item[] B.S.,
+        \href{http://www.math.osu.edu/}
+             {Mathematics}, (GPA 3.62 \emph{Cum Laude})
+	\hfill \textbf{09/2011 -- 06/2011}
+%        \begin{innerlist}
+%        \item \emph{Cum Laude}, With Honors in Mathematics
+%        \item Minor in \href{http://www.cse.ohio-state.edu/}
+%                            {Philosophy}
+%              (logics and formal languages)
+%        \end{innerlist}
+\vspace{-0.5em}
+\item[] B.S.,
+        \href{http://www.cse.osu.edu/}
+             {Computer and Information Science}, (GPA 3.62 \emph{Cum Laude})
+             \hfill \textbf{09/2011 -- 06/2011}
+
+%        \begin{innerlist}
+%        \item \emph{Cum Laude}
+%        \item Theory specialization (emphasis on computability and complexity)
+%        \end{innerlist}
+
+\end{outerlist}
+
+\vspace{-0.75em}
+
+
+\section{Professional Experience}
 
 
 
-\section{Research Experience}
+\href{https://dartmouth.edu}{\textbf{Dartmouth College}},
+Hanover, NH, USA
+
+\href{https://engineering.dartmouth.edu/}{\textbf{Thayer School of Engineering}}.
+Advisor:               
+\href{http://www.dartmouth.edu/~gvc/}
+{Professor George~Cybenko}
+
+\vspace{-0.5em}
+
+\begin{outerlist}
+
+\item[] \textbf{\textit{Research and Teaching Assistant}}%
+\hfill \textbf{09/2015 -- 12/2018 (Projected)}
+%\vspace{-0.25em}
+
+\begin{innerlist}
+
+\item[-] Developed novel sublinear-space sketching algorithms to estimate popular centrality indices in large distributed graphs 
+
+%\item Proved linear communication-theoretic lower space bounds for bounded approximation of several popular centrality indices
+%
+%\item Communicated research to professional audiences at conferences and seminars
+
+\item[-] Taught courses in applied machine learning, with an emphasis on deep learning while leading a team of TAs
+
+\end{innerlist}
+\end{outerlist}
+
+
+
+
+
+
+\halfblankline
+
+
 
 \href{https://www.llnl.gov/}{\textbf{Lawrence Livermore National Laboratory}},
 Livermore, CA, USA
@@ -504,24 +607,27 @@ Supervisor:
 \href{https://people.llnl.gov/pearce7}
 {Dr. Roger Pearce}
 
+\vspace{-0.5em}
 \begin{outerlist}
 
-\item[] \textit{Computation Student Intern}%
-\hfill \textbf{April 2018 to September 2018 (Projected)}
+\item[] \textbf{\textit{Computation Student Intern}}%
+\hfill \textbf{05/2018 -- 12/2018 (Projected)}
 
 \begin{innerlist}
 
-\item Developed an efficient software kernel for massively parallel sampling of random walks from large distributed graphs
+\item[-] Developed and implemented sophisticated communication protocols in a big-data environment in collaboration with the \href{https://github.com/LLNL/havoqgt}{HAVOQGT} project
+\item[-] Improved performance of distributed algorithms with irregular computational load
 
-\item Improved scalability of existing analytics that depend on the sampling of random walks as a subroutine
-
-\item Implemented distributed, sublinear-space top-$k$ centrality estimation algorithms for several popular centrality indices
-
-\item Communicated research to professional audiences at conferences and seminars
+%\item Improved scalability of existing analytics that depend on the sampling of random walks as a subroutine
+%
+%\item Implemented distributed, sublinear-space top-$k$ centrality estimation algorithms for several popular centrality indices
+%
+%\item Communicated research to professional audiences at conferences and seminars
 
 \end{innerlist}
 \end{outerlist}
 
+%\vspace{-0.5em}
 
 
 
@@ -532,36 +638,6 @@ Supervisor:
 
 
 
-\href{https://dartmouth.edu}{\textbf{Dartmouth College}},
-Hanover, VT, USA
-
-\href{https://engineering.dartmouth.edu/}{\textbf{Thayer School of Engineering}}.
-Advisor:               
-\href{http://www.dartmouth.edu/~gvc/}
-{Professor George~Cybenko}
-
-\begin{outerlist}
-
-\item[] \textit{Research Assistant}%
-\hfill \textbf{September 2015 to Present}
-
-\begin{innerlist}
-
-\item Developed novel sublinear-space sketching-based algorithms to estimate popular centrality indices in large distributed graphs 
-
-\item Proved linear communication-theoretic lower space bounds for bounded approximation of several popular centrality indices
-
-\item Communicated research to professional audiences at conferences and seminars
-
-\end{innerlist}
-\end{outerlist}
-
-
-
-
-
-
-\halfblankline
 
 
 
@@ -570,29 +646,30 @@ Advisor:
 Lexington, MA, USA
 
 \href{https://www.ll.mit.edu/mission/cybersec/CADS/CADS.html}
-{Cyber Analytics and Decision Systems Group}.
+{Cyber Analytics and Decision Systems}.
 Supervisor:
 \href{https://www.ll.mit.edu/mission/cybersec/cybersec-bios/carter-bio.html}
 {Dr. Kevin M.~Carter}
 
+\vspace{-0.5em}
 
 \begin{outerlist}
 
-\item[] \textit{Assistant Research Scientist}%
-\hfill \textbf{August 2011 to July 2015}
+\item[] {\normalsize \textbf{\textit{Assistant Research Scientist}}}%
+\hfill \textbf{08/2011 -- 07/2015}
 
 \begin{innerlist}
 %\item Supervisor: 
 
-\item Developed novel machine learning algorithms to educe human and machine behavior from computer network protocol traffic
+\item[-] Designed and implemented novel machine learning algorithms to educe human and machine behavior from computer network protocol traffic
 
-\item Implemented cognitive multi-agent systems to perform high-fidelity network traffic generation for cyber range experiments
+\item[-] Implemented cognitive multi-agent systems to perform high-fidelity network traffic generation for network-scale simulation experiments
 
-\item Evaluated the network-level efficacy of ``moving target'' computer network defenses against modeled adversaries by developing a multi-agent simulation platform
-
-\item Integrated developed algorithms and analytics into a big data environment
-
-\item Communicated research to professional audiences at conferences and seminars
+%\item Evaluated the network-level efficacy of ``moving target'' computer network defenses against modeled adversaries by developing a multi-agent simulation platform
+%
+%\item Integrated developed algorithms and analytics into a big data environment
+%
+%\item Communicated research to professional audiences at conferences and seminars
 
 \end{innerlist}
 \end{outerlist}
@@ -606,15 +683,15 @@ Program Encryption Group.
 Supervisor: 
 \href{http://www.soc.southalabama.edu/~mcdonald/}
 {Professor J.~Todd McDonald}
-
+\vspace{-0.5em}
 \begin{outerlist}
 
-\item[] \textit{Engineering Technician GS-05}%
-\hfill \textbf{June to September, 2008 \& 2009}
+\item[] \textbf{\textit{Engineering Technician GS-05}}%
+\hfill \textbf{06 -- 09, 2008 \& 2009}
 
 \begin{innerlist}
 
-\item Developed obfuscation metrics for combinatorial circuits using abstract interpretation-based software semantic models
+\item[-] Developed encryption metrics for circuits using abstract-interpretation semantic models
 
 \end{innerlist}
 \end{outerlist}
@@ -622,6 +699,98 @@ Supervisor:
 
 
 
+
+\vspace{-0.5em}
+
+
+
+\section{Technical \\ Strengths}
+
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength-3.5\spacewidth}@{}p{\spacewidth}@{}p{\rcollength}}%
+
+% Address box
+\parbox{\textwidth-\rcollength-\spacewidth}{%
+\textbf{Languages}
+\begin{innerlist}
+\item[] C/C++, Python, Bash, MATLAB, R, Java
+\end{innerlist}
+\textbf{Computing}
+\begin{innerlist}
+\item[] Distributed and parallel algorithms
+\item[] Streaming algorithms
+\item[] Applied mathematics
+\item[] Machine learning \& deep learning
+\end{innerlist}
+%14 Engineering Drive\\
+%Hanover, NH 03755  USA
+}
+
+&
+% Uncomment to add a vertical bar in middle of contact information
+%{\vrule width 0.5pt}
+%\parbox[m][5\baselineskip]{\spacewidth}{} &
+
+% Non-snail-mail contact information
+\parbox{1.5\rcollength}{%
+\textbf{Software}
+\begin{innerlist}
+\item[] Git, Keras and TensorFlow, most editors, \LaTeX{}
+\end{innerlist}
+\textbf{Interpersonal}
+\begin{innerlist}
+\item[] Teamwork and communication
+\item[] Leadership and mentoring
+\item[] Public speaking and technical communication
+\end{innerlist}
+%\textit{WWW:} \href{http://www.tedpavlic.com/}{www.tedpavlic.com}
+}
+
+\end{tabular}
+
+
+\section{Awards}
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength-3.5\spacewidth}@{}p{\spacewidth}@{}p{\rcollength}}%
+
+% Address box
+\parbox{\textwidth-\rcollength-\spacewidth}{%
+\href{http://www.secrypt.icete.org/PreviousAwards.aspx}{SECRYPT}
+\begin{innerlist}
+\item[] Best Paper Award, 2018
+\end{innerlist}
+
+\halfblankline
+
+\href{http://www.ll.mit.edu}{MIT Lincoln Laboratory}
+\begin{innerlist}
+\item[] Lincoln Scholar Program recipient, 2015
+\vspace{-0.5em}
+\begin{itemize}
+	\item[-] (declined)
+\end{itemize}
+\end{innerlist}
+%14 Engineering Drive\\
+%Hanover, NH 03755  USA
+}
+
+&
+% Uncomment to add a vertical bar in middle of contact information
+%{\vrule width 0.5pt}
+%\parbox[m][5\baselineskip]{\spacewidth}{} &
+
+% Non-snail-mail contact information
+\parbox{1.5\rcollength}{%
+\href{http://www.osu.edu}{The Ohio State University}
+\begin{innerlist}
+\item[-] Phi Beta Kappa Inductee, 2010
+\item[-] Bingham Award in Philosophy, 2010
+\item[-] Kenneth Cummings Scholarship, 2008--2011
+\item[-] Distinguished Merit Scholarship, 2007--2011
+\item[-] Ohio Academic Scholarhship, 2007-2011
+\end{innerlist}
+%\textit{WWW:} \href{http://www.tedpavlic.com/}{www.tedpavlic.com}
+}
+
+\end{tabular}
 
 
 
@@ -677,58 +846,7 @@ Supervisor:
 % down to make room for tall ``Submitted Conference Publications''
 % marginpar. If there are enough submitted journal publications, this
 % space will not be needed (and should be removed).
-\section{Education}
 
-\href{https://engineering.dartmouth.edu/}{\textbf{Thayer School of Engineering}}
-at 
-\href{https://dartmouth.edu}{\textbf{Dartmouth College}},
-Hanover, VT, USA
-\begin{outerlist}
-
-\item[] Ph.D.,
-             Engineering
-             %
-\hfill \textbf{September 2015 to Present}
-        \begin{innerlist}
-%        \item Thesis Topic: \emph{Design and Analysis of Optimal Task-Processing Agents}
-%        \item Thesis Proposal: \emph{Cooperative Task Processing}
-%        \item Candidacy: \emph{Research Problems in Distributed Control for Energy Systems}
-        \item Adviser:
-              \href{http://www.dartmouth.edu/~gvc/}
-                   {Professor George~Cybenko}
-        \item Thesis: Sublinear Approximations of Vertex Centrality in Evolving Graphs
-        \end{innerlist}
-\end{outerlist}
-
-\blankline
-
-\href{http://www.osu.edu/}{\textbf{The Ohio State University}},
-Columbus, OH, USA
-\begin{outerlist}
-
-\item[] B.S.,
-        \href{http://www.math.osu.edu/}
-             {Mathematics}, \emph{Cum Laude}
-	\hfill \textbf{September 2011 to June 2011}
-%        \begin{innerlist}
-%        \item \emph{Cum Laude}, With Honors in Mathematics
-%        \item Minor in \href{http://www.cse.ohio-state.edu/}
-%                            {Philosophy}
-%              (logics and formal languages)
-%        \end{innerlist}
-\item[] B.S.,
-        \href{http://www.cse.osu.edu/}
-             {Computer and Information Science}, \emph{Cum Laude}
-             \hfill \textbf{September 2011 to June 2011}
-
-%        \begin{innerlist}
-%        \item \emph{Cum Laude}
-%        \item Theory specialization (emphasis on computability and complexity)
-%        \end{innerlist}
-
-\end{outerlist}
-
-\section{Technical \\ Skills}
 
 %Analog and Digital Electronics:
 %%
@@ -766,53 +884,7 @@ Columbus, OH, USA
 %
 %\halfblankline
 
-Big Data Ecosystems:
-Hadoop,
-MapReduce,
-HDFS
-and 
-Elemental
 
-\halfblankline
-
-Programming Languages:
-C/C$+$$+$, 
-Java
-
-\halfblankline
-
-Scripting Languages:
-Python, 
-XML
-and Bash
-
-\halfblankline
-
-Numerical Analysis:
-\Matlab, 
-Mathematica
-and R 
-
-\halfblankline
-
-Version Control:
-Git
-and
-VCS (CVS, SVN)
-
-\halfblankline
-
-Editors:
-Emacs, 
-Eclipse, 
-IntelliJ
-and 
-Vim
-
-\halfblankline
-
-Typesetting:
-\TeX{} (\LaTeX{}, \BibTeX{})
 
 
 %\href{http://www.mathworks.com/products/matlab/}{\Matlab} skill set:
@@ -848,82 +920,90 @@ Typesetting:
 %\halfblankline
 
 
-\section{Teaching Experience}
-
-\href{https://engineering.dartmouth.edu/}{\textbf{Thayer School of Engineering}}
-at 
-\href{https://dartmouth.edu}{\textbf{Dartmouth College}},
-Hanover, VT, USA
-
-\begin{innerlist}
-\item[] \textit{Teaching Assistant}%
-    \begin{innerlist}
-        \item Instructor for ENGS/QBS 108: Applied Machine Learning
-            \hfill \textbf{Autumn 2017}
-        \begin{innerlist}
-            \item Collaborated with instructors to develop course curriculum aimed at graduate engineering and computer science students
-            \item Designed and taught approximately twenty-five percent of the course lecture content, including all practical implementation content
-            \item Provided ground and one-on-one assistance to students covering lecture topics
-            \item Planned, wrote, and graded student assignments
-        \end{innerlist}
-
-%        \halfblankline
-
-        \item Instructor for ENGS 177: Decision Making Under Risk and Uncertainty
-            \hfill \textbf{Winter 2017}
-        \begin{innerlist}
-            \item Planned and taught a weekly recitation covering practical machine learning topics
-            \item Provided ground and one-on-one assistance to students covering lecture topics
-            \item Graded student assignments
-        \end{innerlist}
-
-    \end{innerlist}
-
-\end{innerlist}
-
-
-\href{http://www.osu.edu/}{\textbf{The Ohio State University}},
-Columbus, OH, USA
-\begin{innerlist}
-
-\item[] \textit{Teaching Assistant}%
-    \begin{innerlist}
-        \item Instructor for CSE~625: Automata and Formal Languages
-            \hfill \textbf{Summer \& Autumn 2010}
-        \begin{innerlist}
-            \item Planned and taught a weekly recitation covering details and proofs of lecture topics
-            \item Graded student assignments
-        \end{innerlist}
-
-%        \halfblankline
-
-        \item Grader for CSE~560: System Software Design and Devlopment
-            \hfill \textbf{Summer 2010}
-        \begin{innerlist}
-            \item Graded student assignments
-        \end{innerlist}
-
-    \end{innerlist}
-
-\end{innerlist}
+%\section{Teaching Experience}
+%
+%\href{https://engineering.dartmouth.edu/}{\textbf{Thayer School of Engineering}}
+%at 
+%\href{https://dartmouth.edu}{\textbf{Dartmouth College}},
+%Hanover, VT, USA
+%
+%\begin{innerlist}
+%\item[] \textit{Teaching Assistant}%
+%    \begin{innerlist}
+%        \item Instructor for ENGS/QBS 108: Applied Machine Learning
+%            \hfill \textbf{Autumn 2017}
+%        \begin{innerlist}
+%            \item Collaborated with instructors to develop course curriculum aimed at graduate engineering and computer science students
+%            \item Designed and taught approximately twenty-five percent of the course lecture content, including all practical implementation content
+%            \item Provided ground and one-on-one assistance to students covering lecture topics
+%            \item Planned, wrote, and graded student assignments
+%        \end{innerlist}
+%
+%%        \halfblankline
+%
+%        \item Instructor for ENGS 177: Decision Making Under Risk and Uncertainty
+%            \hfill \textbf{Winter 2017}
+%        \begin{innerlist}
+%            \item Planned and taught a weekly recitation covering practical machine learning topics
+%            \item Provided ground and one-on-one assistance to students covering lecture topics
+%            \item Graded student assignments
+%        \end{innerlist}
+%
+%    \end{innerlist}
+%
+%\end{innerlist}
+%
+%
+%\href{http://www.osu.edu/}{\textbf{The Ohio State University}},
+%Columbus, OH, USA
+%\begin{innerlist}
+%
+%\item[] \textit{Teaching Assistant}%
+%    \begin{innerlist}
+%        \item Instructor for CSE~625: Automata and Formal Languages
+%            \hfill \textbf{Summer \& Autumn 2010}
+%        \begin{innerlist}
+%            \item Planned and taught a weekly recitation covering details and proofs of lecture topics
+%            \item Graded student assignments
+%        \end{innerlist}
+%
+%%        \halfblankline
+%
+%        \item Grader for CSE~560: System Software Design and Devlopment
+%            \hfill \textbf{Summer 2010}
+%        \begin{innerlist}
+%            \item Graded student assignments
+%        \end{innerlist}
+%
+%    \end{innerlist}
+%
+%\end{innerlist}
 
 
 
 \vspace{0.1in}
 
-\section{Peer-Reviewed Conference Publications}
+\section{Selected Peer-Reviewed Publications}
 
 \begin{bibenum}
 
-\item Luan Hoy Pham, Massimiliano Albanese, and Benjamin W. Priest.
-Quantifying APT Malware.
-[In Preparation].
-March, 2018.
+\item Benjamin W. Priest, Roger Pearce, and Geoffrey Sanders.
+DegreeSketch: Distributed Cardinality Sketches on Graphs, with Applications to Counting Triangles.
+In \emph{Proceedings of the 2018 IEEE International Parallel and Distributed Processing Symposium}, IPDPS.
+\textbf{[Submitted]}.
+2019.
+
+\item Benjamin W. Priest, Roger Pearce, and Geoffrey Sanders.
+You've Got Mail: Boosting Performance of Irregular Distributed Workloads using Asynchronous Collectives.
+ \textbf{[In Preparation]}
+
+\item Benjamin W. Priest, Roger Pearce, and Geoffrey Sanders.
+Estimating Edge-Local Triangle Count Heavy Hitters in Edge-Linear Time and Almost-Vertex-Linear Space
+In \emph{Proceedings of the IEEE High Performance Extreme Computing Conference}, HPEC. 2018.
 
 \item Luan Hoy Pham, Massimiliano Albanese, and Benjamin W. Priest.
-Dynamic Defense Placement Against Advanced Persistent Threats.
-[In Preparation].
-March, 2018.
+A Quantitative Framework to Model Advanced Persistent Threats.
+In \emph{Proceedings of the 15th International Conference on Security and Cryptography}, SECRYPT. 2018.
 
 
 \item \bibentry{DBLP:conf/springsim/PriestC15}
@@ -954,6 +1034,9 @@ March, 2018.
 %Saint Paul, Minnesota, USA,
 %May 2013 \\
 %\doi{10.1007/s11721-014-0100-8}
+
+\item \bibentry{DBLP:conf/www/PriestG13}
+
 
 % An Expectation Maximization Approach to Detecting Compromised Remote Access Accounts
 \item \bibentry{DBLP:conf/flairs/GoldPC13}
@@ -1010,31 +1093,30 @@ March, 2018.
 %\end{bibenum}
 
 
-\section{Other Conference Publications}
-
-
-\begin{bibenum}
-
-\item \bibentry{DBLP:conf/spie/PriestC17}
-
-\item \bibentry{DBLP:conf/spie/PriestC16}
-
-\item Kevin M. Carter, Ramona S. Caceres and Benjamin W. Priest
-Characterization of latent social networks discovered through computer network logs.
-In \emph{Networks in the Social and Information Sciences workshop of the 29th Annual Conference on Neural Information Processing Systems (NIPS~2015)},
-Montreal, Canada,
-December, 2015.
-
-% Utility discounting explains informational website traffic patterns before a hurricane
-\item \bibentry{DBLP:conf/www/PriestG13}
-%\item Priest, B. and K.~Gold.
-%Utility discounting explains informational website traffic patterns before a hurricane.
-%In: \emph{Proceedings of the 22nd International World Wide Web Conference (WWW~2013)},
-%Rio de Janeiro, Brazil,
-%May 2013.
-%Poster Abstract.
-
-\end{bibenum}
+%\section{Other Publications}
+%
+%
+%\begin{bibenum}
+%
+%\item \bibentry{DBLP:conf/spie/PriestC17}
+%
+%\item \bibentry{DBLP:conf/spie/PriestC16}
+%
+%\item Kevin M. Carter, Ramona S. Caceres and Benjamin W. Priest
+%Characterization of latent social networks discovered through computer network logs.
+%In \emph{Networks in the Social and Information Sciences workshop of the 29th Annual Conference on Neural Information Processing Systems (NIPS~2015)},
+%Montreal, Canada,
+%December, 2015.
+%
+%% Utility discounting explains informational website traffic patterns before a hurricane
+%%\item Priest, B. and K.~Gold.
+%%Utility discounting explains informational website traffic patterns before a hurricane.
+%%In: \emph{Proceedings of the 22nd International World Wide Web Conference (WWW~2013)},
+%%Rio de Janeiro, Brazil,
+%%May 2013.
+%%Poster Abstract.
+%
+%\end{bibenum}
 
 %\section{Invited Talks}
 %
@@ -1195,7 +1277,7 @@ December, 2015.
 
 %\section{Academic Service}
 %
-%\begin{bibsection}
+%\begin{bibbsection}
 %
 %    \item \textbf{\emph{Committee for the Development of Biomimicry and
 %        Bio\-/inspired Research and Education Initiatives at ASU}}\\
@@ -1208,11 +1290,11 @@ December, 2015.
 %        focused on discussion of research topics in complexity science.
 %        2013.
 %
-%\end{bibsection}
+%\end{bibbsection}
 
 %\section{Student Advising}
 %
-%\begin{bibsection}
+%\begin{bibbsection}
 %
 %    \item \textbf{Alyssa Adams}\\
 %        Graduate student in Physics, Arizona State University.
@@ -1292,7 +1374,7 @@ December, 2015.
 %        Primary adviser: \"{U}mit \"{O}zg\"{u}ner.
 %        2011--2012.
 %
-%\end{bibsection}
+%\end{bibbsection}
 
 
 %\section{Professional Service}
@@ -1571,29 +1653,29 @@ December, 2015.
 
 
 
-\section{Awards}
-
-\href{http://www.ll.mit.edu}{MIT Lincoln Laboratory}
-\begin{innerlist}
-\item Lincoln Scholar Program recipient, 2015 (declined)
-\end{innerlist}
-
-\halfblankline
-
-\href{http://www.osu.edu}{The Ohio State University}
-\begin{innerlist}
-\item Phi Beta Kappa Inductee, 2010
-\item Mathematics Kenneth Cummings Scholarship, 2008--2011
-\item Distinguished Merit Scholarship, 2007--2011
-\item Ohio Academic Scholarhship, 2007-2011
-\item Bingham Award in Philosophy, 2010
-\end{innerlist}
+%\section{Awards}
+%
+%\href{http://www.ll.mit.edu}{MIT Lincoln Laboratory}
+%\begin{innerlist}
+%\item Lincoln Scholar Program recipient, 2015 (declined)
+%\end{innerlist}
+%
+%\halfblankline
+%
+%\href{http://www.osu.edu}{The Ohio State University}
+%\begin{innerlist}
+%\item Phi Beta Kappa Inductee, 2010
+%\item Mathematics Kenneth Cummings Scholarship, 2008--2011
+%\item Distinguished Merit Scholarship, 2007--2011
+%\item Ohio Academic Scholarhship, 2007-2011
+%\item Bingham Award in Philosophy, 2010
+%\end{innerlist}
 
 
 
 %\section{Popular Media}
 %
-%\begin{bibsection}
+%\begin{bibbsection}
 %
 %    \item Pavlic, Theodore P. ``Cognition in Ants, Robots, and Pre-biotic Chemistries: A
 %        Science on Google+ HOA with Dr. Ted Pavlic.'' Interview by Chris
@@ -1609,7 +1691,7 @@ December, 2015.
 %        Coding Coalition Built an Open Source Superserver'',
 %        \emph{Wired}, 12(06), June 2004.
 %
-%\end{bibsection}
+%\end{bibbsection}
 
 %\section{Security Clearance}
 %
