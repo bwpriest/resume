@@ -120,6 +120,9 @@
 
 \nobibliography*
 
+\newcommand{\ndd}{\textbf{In preparation}}
+\newcommand{\myname}{\textbf{Benjamin W Priest}}
+
 \makeatletter
 \newlength{\bibbhang}
 \setlength{\bibbhang}{1em}
@@ -326,7 +329,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\makeheading{~Benjamin~(Ben) Wesley~Priest (he/they)}
+\makeheading{~Benjamin~(Ben) Wesley~Priest (they/them)}
 
 %%---------------------------------------------------------------------------------------------------------
 \section{Contact Information}
@@ -493,9 +496,19 @@ Postdoctoral Researcher\\
 %%---------------------------------------------------------------------------------------------------------
 \section{Research Experience}
 %%---------------------------------------------------------------------------------------------------------
-\input{components/research_experience_recent.tex}
-\input{components/research_experience_old.tex}
-\vspace{-0.5em}
+\input{components/research_experience_llnl.tex}
+
+\halfblankline
+
+\input{components/research_experience_dartmouth.tex}
+
+\halfblankline
+
+\input{components/research_experience_mitll.tex}
+
+\halfblankline
+
+\input{components/research_experience_afit.tex}
 
 
 
@@ -508,78 +521,60 @@ Postdoctoral Researcher\\
 \input{components/technical_expertise.tex}
 \vspace{0.1in}
 
+
 %%---------------------------------------------------------------------------------------------------------
 \section{Peer-Reviewed Conference Publications}
 %%---------------------------------------------------------------------------------------------------------
-\begin{bibenum}
-\input{components/publications_recent.tex}
-\input{components/publications_old.tex}
-\end{bibenum}
+\input{components/publications_conferences.tex}
 
 
+%%---------------------------------------------------------------------------------------------------------
+\section{Peer-Reviewed Conference Publications}
+%%---------------------------------------------------------------------------------------------------------
+\input{components/publications_journals.tex}
 
 
 %%---------------------------------------------------------------------------------------------------------
 \section{ArXiv \\Papers}
 %%---------------------------------------------------------------------------------------------------------
-
-\begin{bibenum}
 \input{components/papers_arxiv.tex}
-\end{bibenum}
 
 
 %%---------------------------------------------------------------------------------------------------------
 \section{Working \\Papers}
 %%---------------------------------------------------------------------------------------------------------
-
-\begin{bibenum}
 \input{components/papers_working.tex}
-\end{bibenum}
 
 
 
 %%---------------------------------------------------------------------------------------------------------
 \section{Other Conference Publications}
 %%---------------------------------------------------------------------------------------------------------
-\begin{bibenum}
 \input{components/publications_noreview.tex}
-\end{bibenum}
+
 
 %%---------------------------------------------------------------------------------------------------------
 \section{Book Chapters}
 %%---------------------------------------------------------------------------------------------------------
-
-\begin{bibenum}
 \input{components/book_chapters.tex}
-\end{bibenum}
 
 
 %%---------------------------------------------------------------------------------------------------------
 \section{Conference Talks}
 %%---------------------------------------------------------------------------------------------------------
-
-\begin{bibenum}
 \input{components/talks_conference.tex}
-\end{bibenum}
-
 
 
 %%---------------------------------------------------------------------------------------------------------
 \section{Invited Talks}
 %%---------------------------------------------------------------------------------------------------------
-
-\begin{bibenum}
 \input{components/talks_invited.tex}
-\end{bibenum}
 
 
 %%---------------------------------------------------------------------------------------------------------
 \section{Poster Presentations}
 %%---------------------------------------------------------------------------------------------------------
-
-\begin{bibenum}
-\input{components/posters_conf.tex}
-\end{bibenum}
+\input{components/talks_poster.tex}
 
 
 
@@ -595,29 +590,22 @@ Postdoctoral Researcher\\
 %%---------------------------------------------------------------------------------------------------------
 \section{Grants}
 %%---------------------------------------------------------------------------------------------------------
-\restartlist{bibenum}
 
 \textbf{In Preparation}
 
-\begin{bibenum}
 \input{components/grants_awaiting.tex}
-\end{bibenum}
 
 \blankline
 
 \textbf{Awarded}
 
-\begin{bibenum}
 \input{components/grants_awarded.tex}
-\end{bibenum}
 
 \blankline
 
 \textbf{Declined}
 
-\begin{bibenum}
 \input{components/grants_declined.tex}
-\end{bibenum}
 %
 %\blankline
 %
@@ -757,21 +745,16 @@ Postdoctoral Researcher\\
 %%---------------------------------------------------------------------------------------------------------
 \section{Mentoring}
 %%---------------------------------------------------------------------------------------------------------
-\restartlist{bibenum}
 
 \textbf{Postdocs}
 %
-\begin{bibenum}
 \input{components/mentoring_postdocs.tex}
-\end{bibenum}
 
 \blankline
 
 \textbf{Students}
 %
-\begin{bibenum}
 \input{components/mentoring_students.tex}
-\end{bibenum}
 
 %%---------------------------------------------------------------------------------------------------------
 \section{Professional Service}
@@ -1364,7 +1347,7 @@ Postdoctoral Researcher\\
 %More information and auxiliary documents can be found at\\%
 %\url{http://www.tedpavlic.com/facjobsearch/}.
 
-\bibliographystyle{plainnat}
+\bibliographystyle{plain}
 \nobibliography{../bibs/pubs.bib}
 
 \end{document}

@@ -120,6 +120,9 @@
 
 \nobibliography*
 
+\newcommand{\ndd}{\textbf{In preparation}}
+\newcommand{\myname}{\textbf{Benjamin W Priest}}
+
 \makeatletter
 \newlength{\bibbhang}
 \setlength{\bibbhang}{1em}
@@ -326,7 +329,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\makeheading{~Benjamin~(Ben) Wesley~Priest}
+\makeheading{~Benjamin~(Ben) Wesley~Priest (they/them)}
 
 %%---------------------------------------------------------------------------------------------------------
 \section{Contact Information}
@@ -486,8 +489,15 @@ Postdoctoral Researcher\\
 %%---------------------------------------------------------------------------------------------------------
 \section{Research Experience}
 %%---------------------------------------------------------------------------------------------------------
-\input{components/research_experience_recent.tex}
-\input{components/research_experience_old.tex}
+\input{components/research_experience_llnl.tex}
+
+\halfblankline
+
+\input{components/research_experience_dartmouth.tex}
+
+\halfblankline
+
+\input{components/research_experience_mitll.tex}
 \vspace{-0.5em}
 
 %%---------------------------------------------------------------------------------------------------------
@@ -499,29 +509,50 @@ Postdoctoral Researcher\\
 %%---------------------------------------------------------------------------------------------------------
 \section{Awards}
 %%---------------------------------------------------------------------------------------------------------
-\input{components/awards.tex}
+\begin{innerlist}
+
+\item[-] \href{https://graphchallenge.mit.edu/champions}{HPEC Graph Challenge} Champion, 2020
+\item[-] \href{https://graphchallenge.mit.edu/champions}{HPEC Graph Challenge} Champion, 2019
+\item[-] \href{http://www.secrypt.icete.org/PreviousAwards.aspx}{SECRYPT} Best Paper Award, 2018
+
+
+\end{innerlist}
 
 
 
 
-%%---------------------------------------------------------------------------------------------------------
-\section{Funded Projects}
-%%---------------------------------------------------------------------------------------------------------
-\restartlist{bibenum}
-
-\begin{bibenum}
-\input{components/grants_awarded.tex}
-\end{bibenum}
+%%%---------------------------------------------------------------------------------------------------------
+%\section{Funded Projects}
+%%%---------------------------------------------------------------------------------------------------------
+%\restartlist{bibenum}
+%
+%\begin{bibenum}
+%\input{components/grants_awarded.tex}
+%\end{bibenum}
 
 
 
 %%---------------------------------------------------------------------------------------------------------
 \section{Selected Publications}
 %%---------------------------------------------------------------------------------------------------------
-\begin{bibenum}
-%\input{components/papers_arxiv.tex}
-\input{components/publications_recent.tex}
-\end{bibenum}
+%\begin{bibenum}
+%%\input{components/papers_arxiv.tex}
+%\input{components/publications_recent.tex}
+%\end{bibenum}
+\begin{innerlist}
+
+	\item[\cite{goumiri2020star}] \bibentry{goumiri2020star}
+	\item[\cite{goumiri2020reinforcement}] \bibentry{goumiri2020reinforcement}
+	\item[\cite{muyskens2021muygps}] \bibentry{muyskens2021muygps}
+	\item[\cite{muyskens2022star}] \bibentry{muyskens2022star}
+	\item[\cite{priest2020degreesketch}] \bibentry{priest2020degreesketch}
+	\item[\cite{priest2020scaling}] \bibentry{priest2020scaling}
+	\item[\cite{priest2018estimating}] \bibentry{priest2018estimating}
+	\item[\cite{priest2019you}] \bibentry{priest2019you}
+	\item[\cite{otten2020quantum}] \bibentry{otten2020quantum}
+	\item[\cite{steil2021tripoll}] \bibentry{steil2021tripoll}
+
+\end{innerlist}
 
 
 
@@ -530,7 +561,7 @@ Postdoctoral Researcher\\
 
 
 
-\bibliographystyle{plainnat}
+\bibliographystyle{plain}
 \nobibliography{../bibs/pubs.bib}
 
 \end{document}
