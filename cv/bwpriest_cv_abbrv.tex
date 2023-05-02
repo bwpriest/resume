@@ -115,7 +115,7 @@
 
 
 % Allows us to cite items inline
-\usepackage{natbib}
+\usepackage[numbers]{natbib}
 \usepackage{bibentry}
 
 \nobibliography*
@@ -349,146 +349,33 @@
 \newlength{\spacewidth}\setlength{\spacewidth}{20pt}
 %
 \begin{tabular}[t]{@{}p{\textwidth-\rcollength-3.5\spacewidth}@{}p{\spacewidth}@{}p{\rcollength}}%
-\parbox{\textwidth-\rcollength-\spacewidth}{%
-Postdoctoral Researcher\\
-\href{http://www.dartmouth.edu/}{Center for Applied Scientific Computing}\\
-\href{https://computing.llnl.gov/casc/}{Lawrence Livermore National Laboratory}\\
-%14 Engineering Drive\\
-%Hanover, NH 03755  USA
-}
+  \parbox{\textwidth-\rcollength-\spacewidth}{%
+  Computing Scientist                                                  \\
+  \href{https://computing.llnl.gov/casc/}{Center for Applied Scientific
+  Computing}                                                           \\
+  \href{https://www.llnl.gov/}{Lawrence Livermore National Laboratory} \\
+  }
 
-&
-% Uncomment to add a vertical bar in middle of contact information
-%{\vrule width 0.5pt}
-%\parbox[m][5\baselineskip]{\spacewidth}{} &
+   &
 
-% Non-snail-mail contact information
-\parbox{1.5\rcollength}{%
-\textit{Cell:} +1-937-681-1935 \\
-%\textit{Fax:} +1-603-646-3856 \\
-\textit{E-mail:} \email{priest2@llnl.gov}\\
-%\textit{WWW:} \href{http://www.tedpavlic.com/}{www.tedpavlic.com}
-}
+  \parbox{1.5\rcollength}{\textit{github:}
+  \href{https://github.com/bwpriest}{https://github.com/bwpriest}      \\
+  \textit{E-mail:} \email{priest2@llnl.gov}                            \\
+  }
 
 \end{tabular}
 \vspace{-1em}
 
-%%
-%% In modern CV's, it seems like ``Objective'' is frowned upon. Instead,
-%% incorporate it into a well-constructed cover letter. The ``More
-%% information'' can go at the end of the CV, but it should not distract
-%% from the section giving references available to contact.
-%%
-%
-% \section{Objective}
-%
-% Placement in an academic position (i.e., faculty, postdoctoral, or
-% research scientist) that allows for advanced research in distributed
-% complex adaptive systems (i.e., modeling, analysis, design, and
-% verification) with a particular focus on the control of engineered
-% agents (e.g., for communications, control, software, electronics, and
-% sustainability) and the analysis of biological phenomena (e.g.,
-% self-organization, ecological rationality)
-% \begin{innerlist}
-% \item More information and auxiliary documents can be found at\\\url{http://www.tedpavlic.com/facjobsearch/}
-% \end{innerlist}
-
-%%---------------------------------------------------------------------------------------------------------
 \section{Research Interests}
-%%---------------------------------------------------------------------------------------------------------
 \input{components/research_interests.tex}
 
 \vspace{-0.5em}
-%\section{Current Academic Appointments}
-%
-%\textbf{Assistant Professor},
-%            \href{http://www.asu.edu/}{Arizona State University}
-%            \hfill {August 2015 to present}
-%\begin{innerlist}
-%
-%    \item[] \href{http://cidse.engineering.asu.edu/}{School of Computing, Informatics, and Decision Systems Engineering}
-%    \item[] \href{http://sustainability.asu.edu/}{School of Sustainability}
-%    \begin{innerlist}
-%        \item Affiliations:
-%            \begin{innerlist}
-%                \item \href{http://biomimicry.asu.edu/}{The Biomimicry Center}
-%                \item \href{http://beyond.asu.edu/}{BEYOND Center for Fundamental Concepts in Science}
-%                \item \href{http://csdc.asu.edu/}{Center for Social Dynamics and Complexity}
-%            \end{innerlist}
-%    \end{innerlist}
-%
-%\end{innerlist}
-%
-%\halfblankline
-%
-%\textbf{External Faculty},
-%        \href{http://humancomputation.org/}{Human Computation Institute}
-%        \hfill {June 2015 to present}
 
-%\section{Previous Academic Appointments}
-%
-%\textbf{Assistant Research Staff},
-%\href{http://www.ll.mit.edu/}{MIT Lincoln Laboratory}
-%\hfill {August 2011 to July 2015}
-%\begin{innerlist}
-%
-%    \item[] \href{https://www.ll.mit.edu/mission/cybersec/cybersec.html}
-%    {Cyber Security and Information Systems}
-%    \begin{innerlist}
-%        \item Affiliations:
-%            \begin{innerlist}
-%                \item \href{https://www.ll.mit.edu/mission/cybersec/CADS/CADS.html}
-%                {Cyber Analytics and Decision Systems Group}
-%            \end{innerlist}
-%    \end{innerlist}
-%
-%\end{innerlist}
-%
-%\halfblankline
-%
-%\textbf{Teaching Assistant},
-%            \href{http://cse.osu.edu/}{Arizona State University}
-%            \hfill {July 2012 to August 2014}
-%\begin{innerlist}
-%
-%    \item[] \href{http://sols.asu.edu/}{School of Life Sciences}
-%    \begin{innerlist}
-%        \item Supervisor: \href{http://www.public.asu.edu/~spratt1}{Professor Stephen C.~Pratt}
-%        \item Decentralized decision making and behavioral bio-mimicry
-%            of social insects
-%    \end{innerlist}
-%
-%\end{innerlist}
-%
-%\halfblankline
-%
-%\textbf{Postdoctoral Researcher},
-%            \href{http://www.osu.edu/}{The Ohio State University}
-%            \hfill {September 2010 to June 2012}
-%\begin{innerlist}
-%
-%    \item[] \href{http://www.cse.ohio-state.edu/}{Department of Computer Science and Engineering}
-%    \begin{innerlist}
-%        \item \href{http://www.nfs.gov/}{National Science Foundation} Cyber-Physical Systems (ENG, \href{http://www.nsf.gov/div/index.jsp?div=eccs}{ECCS})
-%        \begin{innerlist}
-%            \item[$-$] ``Autonomous Driving in Mixed-Traffic Urban Environments''
-%                (grant~\href{http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0931669}{\#0931669})
-%            \item[$-$] Supervisor (co-PI):
-%                \href{http://www.cse.ohio-state.edu/~paolo/}%
-%                     {Professor Paolo A.~G.~Sivilotti}
-%            \item[$-$] PI:
-%                \href{http://www.ece.ohio-state.edu/~umit/}%
-%                     {Professor \"{U}mit \"{O}zg\"{u}ner}
-%        \end{innerlist}
-%    \end{innerlist}
-%
-%\end{innerlist}
+\section{Education}
+\input{components/education.tex}
+\vspace{-0.75em}
 
-
-
-%%---------------------------------------------------------------------------------------------------------
 \section{Research Experience}
-%%---------------------------------------------------------------------------------------------------------
 \input{components/research_experience_llnl.tex}
 
 \halfblankline
@@ -500,69 +387,39 @@ Postdoctoral Researcher\\
 \input{components/research_experience_mitll.tex}
 \vspace{-0.5em}
 
-%%---------------------------------------------------------------------------------------------------------
-\section{Education}
-%%---------------------------------------------------------------------------------------------------------
-\input{components/education.tex}
-\vspace{-0.75em}
-
-%%---------------------------------------------------------------------------------------------------------
 \section{Awards}
-%%---------------------------------------------------------------------------------------------------------
 \begin{innerlist}
 
-\item[-] \href{https://graphchallenge.mit.edu/champions}{HPEC Graph Challenge} Champion, 2020
-\item[-] \href{https://graphchallenge.mit.edu/champions}{HPEC Graph Challenge} Champion, 2019
-\item[-] \href{http://www.secrypt.icete.org/PreviousAwards.aspx}{SECRYPT} Best Paper Award, 2018
-
+  \item[-] \href{https://graphchallenge.mit.edu/champions}{HPEC Graph Challenge}
+  Champion, 2020
+  \item[-] \href{https://graphchallenge.mit.edu/champions}{HPEC Graph Challenge}
+  Champion, 2019
+  \item[-] \href{http://www.secrypt.icete.org/PreviousAwards.aspx}{SECRYPT} Best
+  Paper Award, 2018
 
 \end{innerlist}
 
-
-
-
-%%%---------------------------------------------------------------------------------------------------------
-%\section{Funded Projects}
-%%%---------------------------------------------------------------------------------------------------------
-%\restartlist{bibenum}
-%
-%\begin{bibenum}
-%\input{components/grants_awarded.tex}
-%\end{bibenum}
-
-
-
-%%---------------------------------------------------------------------------------------------------------
-\section{Selected Publications}
-%%---------------------------------------------------------------------------------------------------------
-%\begin{bibenum}
-%%\input{components/papers_arxiv.tex}
-%\input{components/publications_recent.tex}
-%\end{bibenum}
+\section{Most Closely Related Publications}
 \begin{innerlist}
-
-	\item[\cite{goumiri2020star}] \bibentry{goumiri2020star}
-	\item[\cite{goumiri2020reinforcement}] \bibentry{goumiri2020reinforcement}
-	\item[\cite{muyskens2021muygps}] \bibentry{muyskens2021muygps}
-	\item[\cite{muyskens2022star}] \bibentry{muyskens2022star}
-	\item[\cite{priest2020degreesketch}] \bibentry{priest2020degreesketch}
-	\item[\cite{priest2020scaling}] \bibentry{priest2020scaling}
-	\item[\cite{priest2018estimating}] \bibentry{priest2018estimating}
-	\item[\cite{priest2019you}] \bibentry{priest2019you}
-	\item[\cite{otten2020quantum}] \bibentry{otten2020quantum}
-	\item[\cite{steil2021tripoll}] \bibentry{steil2021tripoll}
-
+  \item[\cite{priest2020scaling}] \bibentry{priest2020scaling}
+  \item[\cite{priest2020degreesketch}] \bibentry{priest2020degreesketch}
+  \item[\cite{priest2019you}] \bibentry{priest2019you}
+  \item[\cite{steil2021tripoll}] \bibentry{steil2021tripoll}
+  \item[\cite{pearce2019one}] \bibentry{pearce2019one}
 \end{innerlist}
 
+\section{Other Publications}
+\begin{innerlist}
+  \item[\cite{muyskens2021muygps}] \bibentry{muyskens2021muygps}
+  \item[\cite{muyskens2022star}] \bibentry{muyskens2022star}
+  \item[\cite{priest2018estimating}] \bibentry{priest2018estimating}
+  \item[\cite{dunton2022fast}] \bibentry{dunton2022fast}
+  \item[\cite{steil2019distributed}] \bibentry{steil2019distributed}
+\end{innerlist}
 
-
-
-
-
-
-
-\bibliographystyle{plain}
-\nobibliography{../bibs/pubs.bib}
+\bibliographystyle{unsrtnat}
+\nobibliography{.
+  ./bibs/pubs.bib}
 
 \end{document}
 
