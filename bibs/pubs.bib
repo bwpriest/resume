@@ -4,6 +4,11 @@
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@inproceedings{veldt2026better,
+  title     = {Better Learning-Augmented Spanning Tree Algorithms via Metric Forest Completion},
+  author    = {Veldt, Nate and Stanley, Thomas and \myname and Steil, Trevor and Iwabuchi, Keita and Jayram, TS and Li, Grace J and Sanders, Geoffrey},
+  booktitle = {The Fourteenth International Conference on Learning Representations}
+}
 @inproceedings{veldt2025approximate,
   title     = {Approximate Forest Completion and Learning-Augmented Algorithms for Metric Minimum Spanning Trees},
   author    = {Veldt, Nate and Stanley, Thomas and \myname and Steil, Trevor and Iwabuchi, Keita and Jayram, T. S. and Sanders, Geoffrey},
@@ -216,14 +221,22 @@
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@article{eleh2026stellar,
+  title   = {Stellar Blend Image Classification Using Computationally Efficient {G}aussian Processes},
+  author  = {Eleh, Chinedu and Zhang, Yunli and Bidese, Rafael and \myname and Muyskens, Amanda L. and Molinari, Roberto and Billor, Nedret},
+  journal = {Communications in Statistics - Case Studies and Data Analysis},
+  url     = {arXiv preprint arXiv:2407.19297},
+  year    = {to appear}
+}
+
 @article{sallaberry2024scalable,
-  title     = {A Scalable {G}aussian Process Approach to Shear Mapping with {M}uy{GPS}},
-  author    = {Sallaberry, Gregory and Armstrong, Robert E. and \myname and Schneider, Michael D. and Muyskens, Amanda L.},
-  journal   = {The Astrophysical Journal},
-  volume    = {981},
-  number    = {2},
-  pages     = {166},
-  year      = {2025},
+  title   = {A Scalable {G}aussian Process Approach to Shear Mapping with {M}uy{GPS}},
+  author  = {Sallaberry, Gregory and Armstrong, Robert E. and \myname and Schneider, Michael D. and Muyskens, Amanda L.},
+  journal = {The Astrophysical Journal},
+  volume  = {981},
+  number  = {2},
+  pages   = {166},
+  year    = {2025}
 }
 
 @article{mukangango2024robust,
@@ -275,17 +288,17 @@
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@article{iwabuchi2026solanet,
+  title   = {SOLANET: Distributed Neighbor Graph Construction on GPU-Accelerated Systems},
+  author  = {Iwabuchi, Keita and Steil, Trevor and Priest, Benjamin W and Li, Grace J and Sanders, Geoffrey and Pearce, Roger},
+  journal = {arXiv preprint arXiv:2605.27691},
+  year    = {2026}
+}
+
 @article{nnyaba2024enhancing,
   title   = {Enhancing Electrocardiography Data Classification Confidence: A Robust Gaussian Process Approach ({M}uy{GP}s)},
   author  = {Ukamaka V. Nnyaba and Hewan M. Shemtaga and David W. Collins and Amanda L. Muyskens and \myname and Nedret Billor},
   journal = {arXiv preprint arXiv:2409.04642},
-  year    = {2024}
-}
-
-@article{eleh2024stellar,
-  title   = {Stellar Blend Image Classification Using Computationally Efficient {G}aussian Processes},
-  author  = {Eleh, Chinedu and Zhang, Yunli and Bidese, Rafael and \myname and Muyskens, Amanda L. and Molinari, Roberto and Billor, Nedret},
-  journal = {arXiv preprint arXiv:2407.19297},
   year    = {2024}
 }
 
@@ -324,21 +337,34 @@
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@unpublished{boahen2024efficient,
-  title  = {On the cluster recovery of power iteration algorithms for realistic stochastic block models},
-  author = {Boahen, Edem and \myname and Jayram, T. S. and Sanders, Geoffrey},
+@unpublished{stanley2027metric,
+  title  = {Metric Forest Completion: Parallel and Fast},
+  author = {Stanley, Thomas and \myname and Steil, Trevor and Veldt, Nate},
+  year   = {\textbf{To Be Submitted To IPDPS 2027}}
+}
+
+@unpublished{boahen2027approximate,
+  title  = {Approximate Multi-Matrix Multiplication for Streaming Power Iteration Clustering},
+  author = {Boahen, Edem and \myname and Jayram, T. S. and Li, Grace and Sanders, Geoffrey},
   year   = {\ndd}
 }
 
-@unpublished{priest2024extreme,
-  title  = {Toward Extreme-Scale Clustering of High-Dimensional Data},
-  author = {\myname and Iwabuchi, Keita and Steil, Trevor},
+@unpublished{priest2027oblivious,
+  title  = {Oblivious Embeddings for Large Sparse Data via Distributed Power Iteration},
+  author = {\myname and Boahen, Edem and Iwabuchi, Keita and Steil, Trevor and Sanders, Geoffrey},
+  year   = {\textbf{To Be Submitted to IPDPS 2027}}
+}
+
+@unpublished{iwabuchi2027clams,
+  title  = {ClaMS: General Clustering at Massive Scale for
+            High-Dimensional, non-Euclidean Data},
+  author = {Iwabuchi, Keita and Li, Grace and Stanley, Thomas and Steil, Trevor and Sanders, Geoffrey and \myname },
   year   = {\ndd}
 }
 
-@unpublished{priest2023fast,
-  title  = {Fast approximate K-nearest neighbors recovery of graphs using subspace embeddings on graph exponents},
-  author = {\myname and Steil, Trevor and Sanders, Geoffrey and Iwabuchi, Keita},
+@unpublished{li2026fast,
+  title  = {Fast Clustering of Antibody Sequences Using Graph Algorithms},
+  author = {Li, Grace and Steil, Trevor and \myname and Iwabuchi, Keita},
   year   = {\ndd}
 }
 
@@ -411,6 +437,63 @@
   year        = {2020},
   institution = {Lawrence Livermore National Lab.(LLNL), Livermore, CA (United States)}
 }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Repositories
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@misc{clams,
+  author       = {Iwabuchi, Keita and Li, Grace and Steil, Trevor and Stanley, Thomas and \myname},
+  title        = {Cla{MS}: H{PC} Hierarchical Clustering.},
+  howpublished = {\url{https://github.com/LLNL/clams}},
+  year         = {2026},
+  note         = {GitHub/LLNL repository}
+}
+
+@misc{powersqueeze,
+  author       = {\myname},
+  title        = {powersqueeze: A high-performance oblivious embedding toolkit for large, sparse data.},
+  howpublished = {\url{https://github.com/LLNL/powersqueeze}},
+  year         = {2025},
+  note         = {GitHub/LLNL repository}
+}
+
+@misc{krowkee,
+  author       = {\myname and Dunton, Alec},
+  title        = {krowkee: A high-performance computing toolkit for scalably summarizing many data streams in distributed memory.},
+  howpublished = {\url{https://github.com/LLNL/krowkee}},
+  year         = {2022},
+  note         = {GitHub/LLNL repository}
+}
+
+@misc{muygpys,
+  author       = {\myname and Dunton, Alec and Goumiri, Im{\`e}ne and Sallaberry, Greg et al.},
+  title        = {Muy{GP}y{S}: A fast, pure python implementation of the {M}uy{GP}s Gaussian process realization and training algorithm.},
+  howpublished = {\url{https://github.com/LLNL/MuyGPyS}},
+  year         = {2021},
+  note         = {GitHub/LLNL repository}
+}
+
+@misc{saltatlas,
+  author       = {Steil, Trevor and Iwabuchi, Keita and \myname},
+  title        = {Salt{A}tlas},
+  howpublished = {\url{https://github.com/LLNL/saltatlas}},
+  year         = {2024},
+  note         = {GitHub/LLNL repository}
+}
+
+@misc{ygm,
+  author       = {Steil, Trevor and Iwabuchi, Keita and Pearce, Roger and \myname et al.},
+  title        = {{YGM}},
+  howpublished = {\url{https://github.com/LLNL/ygm}},
+  year         = {2022},
+  note         = {GitHub/LLNL repository}
+}
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
